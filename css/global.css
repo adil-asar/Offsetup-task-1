@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: lightskyblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo {
+    flex: 1;
+   
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo a > img{
+    width: 100px;
+    margin-bottom: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+   font-size: 17px;
+   letter-spacing: 1px;
+}
+
+
+.section-hero img{
+    width: 100%;
+    height:80vh;
+}
+
+.about-section{
+    padding: 2rem;
+}
+
+.about-section h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-section p{
+    padding: 0 1rem;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    letter-spacing: 2px;
+}
+footer p{
+margin-top: 0;
+font-size: 18px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.team-section{
+    width: 80%;
+    margin:2rem auto;
+    padding: .5rem 0;
+}
+.team-section h1{
+    text-align: center;
+}
+
+.team-section .team-layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-section .team-layout article{
+    width: 37.5%;
+    text-align: center;
+    padding: 1rem;
+  margin: 1rem 0;
+}
+
+.team-section .team-layout article img{
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.team-section .team-layout article p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: lightblue;
+    width: 90%;
+    margin:15px auto;
+    padding: 10px 0;
+    border-radius: 10px;
+}
