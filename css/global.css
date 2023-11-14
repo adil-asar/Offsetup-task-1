@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    background-color: lightskyblue;
+    background-color: rgb(44, 58, 71);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -81,7 +81,7 @@ footer{
     height: 70px;
     justify-content: center;
     align-items: center;
-    background-color: lightskyblue;
+    background-color: rgb(44, 58, 71);
     letter-spacing: 2px;
 }
 footer p{
@@ -123,11 +123,12 @@ font-size: 18px;
 
 .team-section .team-layout article p{
     font-size: 17px;
-    letter-spacing: 1px;
-    background-color: lightblue;
+    letter-spacing: 2px;
+    background-color: rgb(44, 58, 71);
     width: 90%;
     margin:15px auto;
     padding: 10px 0;
+    color: #fff;
     border-radius: 10px;
 }
 
@@ -152,6 +153,7 @@ font-size: 18px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     margin-bottom: 1.5rem;
+    margin-top: 0;
 }
 
 
@@ -186,7 +188,7 @@ input, textarea {
 }
 
 button {
-    background-color: rgb(71, 192, 233);
+    background-color: rgb(44, 58, 71);
     color: #fff;
     padding: 10px 25px;
     border: none;
