@@ -205,6 +205,12 @@ button {
     letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 900px) {
+    form {   width: 75%; padding: 20px ;}
+ .contact-section{    width: 95%;  }
+ 
+ }
+
 @media only screen and (max-width: 600px) {
     .team-section .team-layout article{ width: 100%; }
     .menu { width: 100%; }
@@ -213,9 +219,12 @@ button {
    .team-section .team-layout article p{ font-size: 15px;  width: 100%;}
    form {   width: 92%; padding: 15px ;}
 .contact-section{    width: 95%;  }
-.quotes{
-    font-size: 16px;
-   
+.quotes{  font-size: 16px;}
+.about-section p{  font-size: 15px;}
+.contact-section h1{
+    font-size: 23px;
+}
+ .about-section h1{
+    font-size: 23px;
 }
 
-}
